@@ -1,23 +1,23 @@
-# 🚕 Análise de Dados – Corridas de Táxi em Chicago (Zuber)
+# 🚕 Data Analysis - Taxi Rides in Chicago (Zuber)
 
-Projeto de **Análise Exploratória de Dados (EDA)** focado na investigação de padrões de corridas de táxi na cidade de Chicago.
+The **Data Exploratory Analysis (EDA)** project focused on investigating taxi ride patterns in the city of Chicago.
 
-O objetivo é analisar dados de empresas de táxi, destinos das corridas e condições climáticas para identificar fatores que influenciam a demanda e a duração das viagens.
-
----
-
-# 🎯 Objetivo do Projeto
-
-Este projeto busca responder algumas perguntas importantes sobre o mercado de corridas de táxi:
-
-* 🚕 Quais empresas realizam o maior número de corridas?
-* 📍 Quais regiões da cidade recebem mais viagens?
-* 🌧️ As condições climáticas influenciam a duração das corridas?
-* 📊 Quais padrões podem ser identificados nos dados de mobilidade urbana?
+The goal is to analyze data from taxi companies, race destinations and weather conditions to identify factors that influence demand and travel duration.
 
 ---
 
-# 🗂️ Estrutura do Projeto
+# 🎯 Project Objective
+
+This project seeks to answer some important questions about the taxi ride market:
+
+* 🚕 Which companies run the most races?
+* 📍 Which regions in the city receive the most trips?
+* 🌧️ Do weather conditions influence the duration of races?
+* 📊 What patterns can be identified in urban mobility data?
+
+---
+
+# 🗂️ Project Structure
 
 ```
 Projeto-Zuber
@@ -35,39 +35,39 @@ Projeto-Zuber
 
 ---
 
-# 📁 Descrição das Pastas
+# 📁 Folder Description
 
-### 📂 data
+### 📂 date
 
-Contém os datasets utilizados na análise.
+Contains the datasets used in the analysis.
 
-Arquivos:
+Files:
 
-* `moved_project_sql_result_01.csv` — empresas de táxi e número de corridas realizadas
-* `moved_project_sql_result_04.csv` — regiões de destino e média de corridas
-* `moved_project_sql_result_07.csv` — informações sobre clima e duração das corridas
+* `moved_project_sql_result_01.csv` - taxi companies and number of rides made
+* `moved_project_sql_result_04.csv` - destination regions and average of races
+* `moved_project_sql_result_07.csv` - weather and running time information
 
 ---
 
 ### 📂 notebook
 
-Contém o **Jupyter Notebook** com toda a análise exploratória.
+Contains the **Jupyter Notebook** with all exploratory analysis.
 
-Arquivo principal:
+Master file:
 
 * `notebook.ipynb`
 
-O notebook inclui:
+The notebook includes:
 
-* carregamento dos dados
-* limpeza e verificação dos datasets
-* análise exploratória (EDA)
-* visualização de dados
-* interpretação dos resultados
+* data upload
+* cleaning and checking datasets
+* exploratory analysis (EDA)
+* data visualization
+* interpretation of results
 
 ---
 
-# 🛠️ Ferramentas Utilizadas
+# 🛠️ Tools Used
 
 * 🐍 Python
 * 🐼 Pandas
@@ -77,29 +77,29 @@ O notebook inclui:
 
 ---
 
-# 📈 Principais Análises
+# 📈 Main Analyses
 
-Durante o projeto foram investigados:
+During the project were investigated:
 
-### 🚕 Empresas com maior número de corridas
+### 🚕 Companies with the highest number of races
 
-Identificação das empresas que dominam o mercado de corridas em Chicago.
-
----
-
-### 📍 Regiões com maior número de destinos
-
-Análise das áreas da cidade que recebem maior volume de corridas.
+Identification of the companies that dominate the racing market in Chicago.
 
 ---
 
-### 🌧️ Impacto do clima nas corridas
+### 📍 Regions with the most destinations
 
-Comparação da duração das viagens em diferentes condições climáticas para avaliar possíveis impactos no tempo de deslocamento.
+Analysis of the areas of the city that receive the highest volume of races.
 
 ---
 
-# 🧠 Conclusão
+### 🌧️ Weather impact on races
+
+Comparison of travel duration in different weather conditions to assess possible impacts on travel time.
+
+---
+
+# 🧠 Conclusion
 
 A análise permite entender melhor:
 
