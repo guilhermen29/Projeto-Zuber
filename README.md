@@ -37,7 +37,7 @@ Projeto-Zuber
 
 # 📁 Folder Description
 
-### 📂 date
+### 📂 data
 
 Contains the datasets used in the analysis.
 
